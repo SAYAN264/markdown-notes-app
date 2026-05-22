@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.errorBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #3a1a18;
+  border-bottom: 1px solid var(--red);
+  color: #e88878;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.errorBanner button {
+  background: transparent;
+  color: #e88878;
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px 6px;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+
+.errorBanner button:hover { opacity: 1; }
