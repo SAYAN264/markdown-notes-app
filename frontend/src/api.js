@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: '/api' })
+const API = axios.create({ baseURL: 'https://markdown-notes-app-production-85db.up.railway.app/api' })
 
 export const getNotes   = ()         => API.get('/notes')
 export const createNote = (data)     => API.post('/notes', data)
