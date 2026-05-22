@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://markdown-notes-app-production-85db.up.railway.app/',
+        target: 'http://localhost:5000',
         changeOrigin: true,
       }
     }
