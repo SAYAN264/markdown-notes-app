@@ -1,6 +1,7 @@
 # 📝 Markdown Notes App
 
 A full-stack notes app built with **React**, **Node/Express**, and **MongoDB**.
+**Live Link** - https://notesmarkdownapp.netlify.app/
 
 ## Tech Stack
 - **Frontend**: React 18, react-markdown, axios
